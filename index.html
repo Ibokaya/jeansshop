@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WideWear</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=AXE0vwvQkzHnYkvxk92Jxy4xbgU5EJshqwBAnyeKxnjAHauMQ_whaqcPVNBoGJQbJqo5DFirrvnEWPV0&enable-funding=venmo&currency=EUR" data-sdk-integration-source="button-factory"></script>
+</head>
+<body>
+    <div id = "logo">
+        <h1>WideWear</h1>
+    </div>
+    <div id = "navigation">
+    <a class="link" onclick="produktAnzeige(1)">👖 Jeans Wide Leg Dark </a>
+    <a class="link" onclick="produktAnzeige(2)">🩳 Jeans Wide Leg Bright </a>
+</div>
+
+    <div class="produkt" id = "jeans">
+        <img src="https://images.unsplash.com/photo-1624378441864-6eda7eac51cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGplYW5zJTIwbWVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Bild von einer Jeans">
+        <h2>Jeans Wide Leg Dark</h2>
+        <p>Dunkle Jeans mit weitem Schnitt für den Baba look, gemühtlichkeit und look.</p>
+        <div id="smart-button-container">
+            <div style="text-align: center;">
+              <div id="paypal-button-darkjeans"></div>
+            </div>
+          </div>
+      
+    </div>
+    
+    
+    <div class="produkt" id = "jeans2">
+        <img src="https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8amVhbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Bild von einer Jeans">
+        <h2>Jeans Wide Leg Bright</h2>
+        <p>Helle Jeans mit weitem Schnitt für den Baba look, gemühtlichkeit und look.</p>
+        <div id="smart-button-container">
+            <div style="text-align: center;">
+              <div id="paypal-button-brightjeans"></div>
+            </div>
+          </div>
+      
+    </div>
+    <div id = "footer">
+        <p>Impressum <br>
+        Bolzstr.68 <br>
+        70806 Kornwestheim <br>
+        Ibrahim Enes Kaya
+
+        </p>
+    </div>
+    <script src="logik.js"></script>
+</body>
+</html>
